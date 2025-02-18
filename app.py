@@ -8,6 +8,7 @@ from io import BytesIO
 from dotenv import load_dotenv
 import logging
 
+#コメント
 # 認証を一時的にオフにするためのフラグ
 disable_auth = os.getenv("DISABLE_AUTH", "False").lower() in ("true", "1", "t")  # 変更: 環境変数から認証無効フラグを設定
 
